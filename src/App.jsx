@@ -15,7 +15,6 @@ function App() {
     setResult(true);
     console.log(data.Search);
   }
-
   function increament() {
     setIndexing(indexing + 1);
     console.log(indexing);
