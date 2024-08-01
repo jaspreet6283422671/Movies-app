@@ -1,0 +1,47 @@
+
+.card-making{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 5vh;
+}
+
+.one-div img{
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+.content{
+    display: grid;
+    justify-content: 1fr;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+.one-div{
+    
+   
+}
+.container{
+      border: 1px solid rgba(0, 0, 0, 0.207);
+      border-radius: 20px;
+      padding: 20px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.searchbox input{
+    /* border-radius: 5px; */
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(45, 117, 51, 0.75), rgb(45, 117, 95));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff; /* This will ensure text is readable against the gradient */
+    font-family: 'Arial', sans-serif;
+}
