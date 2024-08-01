@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import "./App.css";
 import "./index.css";
 function App() {
-  const [search, setSearch] = useState(""); // State for search term
+  const [search, setSearch] = useState("Batman"); // State for search term
   const [a, setA] = useState([]);
   const [indexing, setIndexing] = useState(0);
   const [result, setResult] = useState(false);
