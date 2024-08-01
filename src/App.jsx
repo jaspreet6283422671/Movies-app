@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./App.css";
 import "./index.css";
 function App() {
-  const [search, setSearch] = useState("Batman"); // State for search term
+  const [search, setSearch] = useState(""); // State for search term
   const [a, setA] = useState([]);
   const [indexing, setIndexing] = useState(0);
   const [result, setResult] = useState(false);
@@ -15,6 +15,9 @@ function App() {
     setResult(true);
     console.log(data.Search);
   }
+  useEffect(() => {
+    searching(search); // Call searching with the default query when component mounts
+  }, []);
   function increament() {
     setIndexing(indexing + 1);
     console.log(indexing);
